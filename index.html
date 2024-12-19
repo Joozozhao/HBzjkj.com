@@ -1,642 +1,1137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 
 <head>
-    <!--
-     - Roxy: Bootstrap template by GettTemplates.com
-     - https://gettemplates.co/roxy
-    -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HBzjkj.com 河北涨涧科技有限公司</title>
-    <meta name="description" content="Roxy">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- External CSS -->
-    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/select2/select2.min.css">
-    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendor/lightcase/lightcase.css">
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-
+  <meta charset="utf-8">
+  <title>领先的通信能力提供商 —— 涨涧科技</title>
+<meta name="keywords" content="CMS,SSCMS,SS CMS,开源CMS,.net cms,.net core,政府CMS,企业级CMS,网站群,WCM,内容管理系统,网站内容管理,门户系统,建站系统" />
+<meta name="description" content="SiteServer CMS 是开源、跨平台、企业级的CMS内容管理系统，能够以最低的成本、最少的人力投入在最短的时间内架设一个功能齐全、性能优异、规模庞大并易于维护的网站平台。" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="renderer" content="webkit">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="css/iconfont.css">
+<link href="css/swiper-bundle.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/slider.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/countup.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+  <style type="text/css">
+    #header {
+      position: fixed;
+      height: 5.625rem;
+      z-index: 99999;
+      width: 100%;
+      transition: .6s;
+      top: 0;
+    }
+    #header.xg {
+      position: fixed;
+    }
+  </style>
 </head>
-<body data-spy="scroll" data-target="#navbar" class="static-layout">
-	<nav id="header-navbar" class="navbar navbar-expand-lg py-4">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center text-white" href="/">
-            <h3 class="font-weight-bolder mb-0">HBZJ</h3>
+
+<body>
+  <header id="header" class="">
+  <div class="container-fluid">
+    <div class="row justify-content-between">
+      <div id="logo" class="col-3 align-self-center d-flex">
+        <a href="index.html">
+          <img class="logo_white" src="images/logo_white.png">
+          <img class="logo_black" src="images/logo.png">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="lnr lnr-menu"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-nav-header">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a id="side-search-open" class="nav-link" href="#">
-                        <span class="lnr lnr-magnifier"></span>
-                    </a>
-                </li>
-                 <li class="nav-item only-desktop">
-                    <a class="nav-link" id="side-nav-open" href="#">
-                        <span class="lnr lnr-menu"></span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div id="side-nav" class="sidenav">
-	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
-	
-	<div class="sidenav-content">
-		<p>
-			Kuncen WB1, Wirobrajan 10010, DIY
-		</p>
-		<p>
-			<span class="fs-16 primary-color">(+68) 120034509</span>
-		</p>
-		<p>info@yourdomain.com</p>
-	</div>
-</div><div id="side-search" class="sidenav">
-	<a href="javascript:void(0)" id="side-search-close">&times;</a>
-	<div class="sidenav-content">
-		<form action="">
-
-			<div class="input-group md-form form-sm form-2 pl-0">
-			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
-			  <div class="input-group-append">
-			    <button class="input-group-text red lighten-3" id="basic-text1">
-			    	<span class="lnr lnr-magnifier"></span>
-			    </button>
-			  </div>
-			</div>
-
-		</form>
-	</div>
-	
-</div>	<div class="jumbotron d-flex align-items-center">
-  <div class="container text-center">
-    <h1 class="display-1 mb-4">RO<br>XY</h1>
-  </div>
-  <div class="rectangle-1"></div>
-  <div class="rectangle-2"></div>
-  <div class="rectangle-transparent-1"></div>
-  <div class="rectangle-transparent-2"></div>
-  <div class="circle-1"></div>
-  <div class="circle-2"></div>
-  <div class="circle-3"></div>
-  <div class="triangle triangle-1">
-  	<img src="img/obj_triangle.png" alt="">
-  </div>
-  <div class="triangle triangle-2">
-  	<img src="img/obj_triangle.png" alt="">
-  </div>
-  <div class="triangle triangle-3">
-  	<img src="img/obj_triangle.png" alt="">
-  </div>
-  <div class="triangle triangle-4">
-  	<img src="img/obj_triangle.png" alt="">
-  </div>
-</div>	<!-- Features Section-->
-<section id="features" class="bg-white">
-    <div class="container">
-        <div class="section-content">
-            <!-- Section Title -->
-            <div class="title-wrap mb-5" data-aos="fade-up">
-                <h2 class="section-title">
-                    A template built by <a href="https://gettemplates.co" target="_blank">GetTemplates.co</a>
-                </h2>
-                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>
-            </div>
-            <!-- End of Section Title -->
-            <div class="row">
-                <!-- Features Holder-->
-                <div class="col-md-10 offset-md-1 features-holder">
-                    <div class="row">
-                        <!-- Features Item -->
-                        <div class="col-md-4 col-sm-12 text-center mt-4">
-                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
-                                <div class="my-4">
-                                    <i class="lnr lnr-cog fs-40"></i>
-                                </div>
-                                <h4>Easy to Customize</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                            </div>
-                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
-                                <div class="my-4">
-                                    <i class="lnr lnr-frame-contract fs-40"></i>
-                                </div>
-                                <h4>Pixel Perfect</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                            </div>
-                        </div>
-                        <!-- End of Feature Item -->
-                        <!-- Features Item -->
-                        <div class="col-md-4 col-sm-12 text-center">
-                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
-                                <div class="my-4">
-                                    <i class="lnr lnr-bubble fs-40"></i>
-                                </div>
-                                <h4>Full Support</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                            </div>
-                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
-                                <div class="my-4">
-                                    <i class="lnr lnr-magic-wand fs-40"></i>
-                                </div>
-                                <h4>Clean Design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                            </div>
-                        </div>
-                        <!-- End of Feature Item -->
-                        <!-- Features Item -->
-                        <div class="col-md-4 col-sm-12 text-center mt-4">
-                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
-                                <div class="my-4">
-                                    <i class="lnr lnr-clock fs-40"></i>
-                                </div>
-                                <h4>Ontime Project</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                            </div>
-                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
-                                <div class="my-4">
-                                    <i class="lnr lnr-thumbs-up fs-40"></i>
-                                </div>
-                                <h4>Built with SASS</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                            </div>
-                        </div>
-                        <!-- End of Feature Item -->
-                    </div>
-                </div>
-                <!-- End of Features Holder-->
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End of Features Section-->	<section id="section-featurettes" class="featurettes overlay bg-fixed" style="background-image: url(img/bg.jpg);">
-
-    <div class="container">
-        <div class="section-content">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row align-items-center text-white">
-
-                        <div class="col-md-4 offset-md-2 col-sm-6" data-aos="fade-right">
-                            <h4 class="mb-4">Capture every moments and share it to all your friends</h4>
-                            <p>Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet.</p>
-                            <button type="button" class="btn btn-outline-primary">FEATURES</button>
-                        </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
-
-                        <div class="col-md-4 offset-md-right-2 col-sm-6" data-aos="flip-right">
-                            <img class="my-5" src="img/app-profile-mockup.png" alt="">
-                        </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
-
-                    </div><!--/ .featurettes-item -->
-
-                </div><!--/ .col-md-12 -->
-
-            </div><!--/ .row -->
-        </div>
-    </div><!--/ .container -->
-
-</section>	<section id="section-featurettes" class="featurettes">
-
-    <div class="container">
-        <div class="section-content">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row align-items-center">
-
-                        <div class="col-md-4 offset-md-2 col-sm-6" data-aos="flip-left">
-                            <img class="my-5" src="img/app-profile-mockup.png" alt="">
-                        </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
-
-                        <div class="col-md-4 offset-md-right-2 col-sm-6" data-aos="fade-left">
-                            <h4 class="mb-4">Capture every moments and share it to all your friends</h4>
-                            <p>Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet.</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">HTML5 95%</div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">CSS3 90%</div>
-                            </div>
-                        </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
-
-                    </div><!--/ .featurettes-item -->
-
-                </div><!--/ .col-md-12 -->
-
-            </div><!--/ .row -->
-        </div>
-    </div><!--/ .container -->
-
-</section>	<!-- Testimonial Section-->
-<section id="testimonial" class="section-padding bg-fixed bg-white overlay" style="background-image: url(img/bg-white.jpg);">
-    <div class="container">
-        <div class="section-content" data-aos="fade-up">
-            <div class="heading-section text-center">
-                <h2>
-                    User Testimonials
-                </h2>
-            </div>
-            <div class="row">
-                <!-- Testimonial -->
-                <div class="testi-content testi-carousel owl-carousel">
-                    <div class="testi-item text-center">
-                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
-                        <h4 class="testi-text"><b>ROXY</b> is best theme i used so far.<br> It’s ideal for guys without coding knowledge like me!</h4>
-                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
-                            <div class="testi-img mr-2">
-                                <img src="img/testi-1.jpg" alt="">
-                            </div>
-                            <div class="testi-details">
-                                <p class="testi-author mb-0 font-weight-bolder">John Doe</p>
-                                <p class="testi-desc mb-0">Web Designer</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="testi-item text-center">
-                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
-                        <h4 class="testi-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci <br> non doloribus ut, alias doloremque perspiciatis.</h4>
-                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
-                            <div class="testi-img mr-2">
-                                <img src="img/testi-1.jpg" alt="">
-                            </div>
-                            <div class="testi-details">
-                                <p class="testi-author mb-0 font-weight-bolder">John Doe</p>
-                                <p class="testi-desc mb-0">Web Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                     <div class="testi-item text-center">
-                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
-                        <h4 class="testi-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci <br> non doloribus ut, alias doloremque perspiciatis.</h4>
-                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
-                            <div class="testi-img mr-2">
-                                <img src="img/testi-1.jpg" alt="">
-                            </div>
-                            <div class="testi-details">
-                                <p class="testi-author mb-0 font-weight-bolder">John Doe</p>
-                                <p class="testi-desc mb-0">Web Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of Testimonial -->
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End of Testimonial Section-->	<!-- Portfolio Section -->
-<section id="portfolio" class="bg-white">
-    <div class="container">
-        <div class="section-content">
-            <!-- Section Title -->
-            <div class="title-wrap">
-                <h2 class="section-title">Our <b>Awesome</b> Works</h2>
-                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>
-            </div>
-            <!-- End of Section Title -->
-            <div class="row">
-                <!-- Portfolio Holder -->
-                <div class="col-md-12 portfolio-holder mt-3">
-                    <!-- Btn Filter -->
-                    <div class="filter-button-group btn-filter d-flex justify-content-center">
-                        <a tabindex="0" class="is-checked" data-filter="*">Show All</a>
-                        <a tabindex="0" data-filter=".minimalism">Minimalism</a>
-                        <a tabindex="0" data-filter=".vintage">Vintage</a>
-                        <a tabindex="0" data-filter=".creative">Creative</a>
-                    </div>
-                    <!-- End of Btn Filter -->
-                    <!-- Portfolio Content -->
-                    <div class="grid-portfolio">
-                        <div class="grid-sizer"></div>
-                        <div class="gutter-sizer"></div>
-                        <!-- Portfolio Item -->
-                        <div class="grid-item minimalism" data-aos="fade-up">
-                            <div class="grid-item-wrapper">
-                                <img src="img/photo-1.jpg" alt="portfolio-img" class="portfolio-item">
-                                <div class="grid-info">
-                                    <div class="grid-link d-flex justify-content-center">
-                                        <a class="img-pop" data-rel="lightcase" href="img/photo-1.jpg" title="Photo-1">
-                                            <span class="lnr lnr-move"></span>
-                                        </a>
-                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
-                                            <span class="lnr lnr-link"></span>
-                                        </a>
-                                    </div>
-                                    <div class="grid-title">
-                                        <h4>Camera</h4>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- End of Portfolio Item -->
-                        <!-- Portfolio Item -->
-                        <div class="grid-item vintage" data-aos="fade-up">
-                            <div class="grid-item-wrapper">
-                                <img src="img/photo-6.jpg" alt="portfolio-img" class="portfolio-item">
-                                <div class="grid-info">
-                                    <div class="grid-link d-flex justify-content-center">
-                                        <a class="img-pop" data-rel="lightcase" href="img/photo-6.jpg" title="Ship">
-                                            <span class="lnr lnr-move"></span>
-                                        </a>
-                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
-                                            <span class="lnr lnr-link"></span>
-                                        </a>
-                                    </div>
-                                    <div class="grid-title">
-                                        <h4>Flower</h4>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- End of Portfolio Item -->
-                        <!-- Portfolio Item -->
-                        <div class="grid-item creative grid-item-height" data-aos="fade-up">
-                            <div class="grid-item-wrapper">
-                                <img src="img/photo-2.jpg" alt="portfolio-img" class="portfolio-item">
-                                <div class="grid-info">
-                                    <div class="grid-link d-flex justify-content-center">
-                                        <a class="img-pop" data-rel="lightcase" href="img/photo-2.jpg" title="Tracy Portrait">
-                                            <span class="lnr lnr-move"></span>
-                                        </a>
-                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
-                                            <span class="lnr lnr-link"></span>
-                                        </a>
-                                    </div>
-                                    <div class="grid-title">
-                                        <h4>Breakfast</h4>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- End of Portfolio Item -->
-                        <!-- Portfolio Item -->
-                        <div class="grid-item creative" data-aos="fade-up">
-                            <div class="grid-item-wrapper">
-                                <img src="img/photo-7.jpg" alt="portfolio-img" class="portfolio-item">
-                                <div class="grid-info">
-                                    <div class="grid-link d-flex justify-content-center">
-                                        <a class="img-pop" data-rel="lightcase" href="img/photo-7.jpg" title="Guitar">
-                                            <span class="lnr lnr-move"></span>
-                                        </a>
-                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
-                                            <span class="lnr lnr-link"></span>
-                                        </a>
-                                    </div>
-                                    <div class="grid-title">
-                                        <h4>Chair</h4>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- End of Portfolio Item -->
-                        <!-- Portfolio Item -->
-                        <div class="grid-item vintage" data-aos="fade-up">
-                            <div class="grid-item-wrapper">
-                                <img src="img/photo-4.jpg" alt="portfolio-img" class="portfolio-item">
-                                <div class="grid-info">
-                                    <div class="grid-link d-flex justify-content-center">
-                                        <a class="img-pop" data-rel="lightcase" href="img/photo-4.jpg" title="Bookself">
-                                            <span class="lnr lnr-move"></span>
-                                        </a>
-                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
-                                            <span class="lnr lnr-link"></span>
-                                        </a>
-                                    </div>
-                                    <div class="grid-title">
-                                        <h4>Hidden Book</h4>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- End of Portfolio Item -->
-                        <!-- Portfolio Item -->
-                        <div class="grid-item creative" data-aos="fade-up">
-                            <div class="grid-item-wrapper">
-                                <img src="img/photo-9.jpg" alt="portfolio-img" class="portfolio-item">
-                                <div class="grid-info">
-                                    <div class="grid-link d-flex justify-content-center">
-                                        <a class="img-pop" data-rel="lightcase" href="img/photo-9.jpg" title="Guitar">
-                                            <span class="lnr lnr-move"></span>
-                                        </a>
-                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
-                                            <span class="lnr lnr-link"></span>
-                                        </a>
-                                    </div>
-                                    <div class="grid-title">
-                                        <h4>Red</h4>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- End of Portfolio Item -->
-                    </div>
-                    <!-- End of Portfolio Content -->
-                </div>
-                <!-- End of Portfolio Holder -->
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End of Portfolio Section -->	<!-- Client Section -->
-<section id="client" class="overlay bg-fixed" style="background-image: url(img/bg.jpg);">
-    <div class="container">
-        <div class="section-content" data-aos="fade-up">
-            <div class="row ">
-                <div class="col-md-12">
-                    <!-- Section Title -->
-                    <div class="title-wrap mb-5">
-                        <h2>Who love to <span> work</span> with us</h2>
-                    </div>
-                    <!-- End of Section Title -->
-                </div>
-                <!-- Client Holder -->
-                <div class="col-md-12 client-holder">
-                    <div class="client-slider owl-carousel">
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/client.png" alt=" ">
-                        </div>
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/client.png" alt=" ">
-                        </div>
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/client.png" alt=" ">
-                        </div>
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/client.png" alt=" ">
-                        </div>
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/client.png" alt=" ">
-                        </div>
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/client.png" alt=" ">
-                        </div>
-                    </div>
-                    <!-- End of Client Holder -->
-                </div>
-            </div>
-        </div>
-</section>
-<!-- End of Client Section -->	<!-- Reservation Section -->
-<section id="reservation" class="bg-white section-content">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0" data-aos="fade-right">
-                <div class="bg-white p-5 shadow">
-                    <div class="heading-section text-center">
-                        <h2 class="mb-4">
-                            Contact Us
-                        </h2>
-                    </div>
-                    <form method="post" name="contact-us" action="">
-                        <div class="row">
-                            <div class="col-md-12 form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <input type="text" class="form-control" id="websiteUrl" name="websiteUrl" placeholder="Website">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
-                            </div>
-                            <div class="col-md-12 text-center">
-                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-4 offset-lg-1" data-aos="fade-left">
-                <h2 class="mb-4">
-                    Best solution to create any website. Pay once.
-                </h2>
-                <p class="mb-4">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-
-                <ul class="list-inline py-2">
-                    <li class="list-inline-item text-center">
-                        <span class="lnr fs-40 lnr-rocket"></span>
-                        <p>Fast delivery</p>
-                    </li>
-                    <li class="list-inline-item text-center">
-                        <span class="lnr fs-40 lnr-magic-wand"></span>
-                        <p>Awesome design</p>
-                    </li>
-                    <li class="list-inline-item text-center">
-                        <span class="lnr fs-40 lnr-cog"></span>
-                        <p>Easy to customize</p>
-                    </li>
-                </ul>
-
-                <a href="#" class="btn btn-link p-0">
-                    <span>PURCHASE NOW</span>
-                    <span class="lnr lnr-arrow-right"></span>
-                </a>
-            </div>
-        </div>
-        
-    </div>
-</section>
-<!-- End of Reservation Section -->	<!-- Features Section-->
-<section id="cta" class="bg-fixed overlay" style="background-image: url(img/bg.jpg);">
-    <div class="container">
-        <div class="section-content" data-aos="fade-up">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class="mb-2">Make a beautiful website, or million of them</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, veritatis qui eligendi delectus quia fuga!</p>
-                    <a class="btn btn-outline-primary btn-lg">FEATURES</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End of Features Section--></div>
-<footer class="mastfoot my-3">
-    <div class="inner container">
-         <div class="row">
-         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
-         		
-         	</div>
-         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
-         		<p class="mx-auto text-center mb-0">&copy; 2019 Roxy. Design by <a href="https://gettemplates.co" target="_blank">GetTemplates</a>.</p>
-         	</div>
-           
-            <div class="col-lg-4 col-md-12">
-            	<nav class="nav nav-mastfoot justify-content-center">
-	                <a class="nav-link" href="#">
-	                	<i class="fab fa-facebook-f"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="fab fa-twitter"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="fab fa-instagram"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="fab fa-linkedin"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="fab fa-youtube"></i>
-	                </a>
-	            </nav>
-            </div>
+      </div>
+      <div class="col-9">
+        <nav id="nav" class="d-flex justify-content-end">
+          <ul class="d-flex align-items-center">
+            <li class="on">
+              <a href="index.html">
+                <h3>首页</h3>
+              </a>
+            </li>
             
-        </div>
+              <li class="">
+                <a href="channels/2555.html">
+                  <h3>关于我们</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="channels/2555.html">公司概况</a>
+                      
+                        <a href="channels/2557.html">发展历程</a>
+                      
+                        <a href="channels/2558.html">荣誉资质</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="channels/2562.html">
+                  <h3>产品中心</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="channels/2562.html">国内短信</a>
+                      
+                        <a href="channels/2563.html">国际短信</a>
+                      
+                        <a href="channels/2564.html">呼叫中心</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="channels/2566.html">
+                  <h3>解决方案</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="channels/2566.html">电信行业</a>
+                      
+                        <a href="channels/2569.html">金融行业</a>
+                      
+                        <a href="channels/2572.html">保险行业</a>
+                      
+                        <a href="channels/2575.html">智能制造</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="channels/2579.html">
+                  <h3>新闻动态</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="channels/2579.html">企业新闻</a>
+                      
+                        <a href="channels/2580.html">媒体聚焦</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="channels/2582.html">
+                  <h3>企业文化</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="channels/2582.html">价值理念</a>
+                      
+                        <a href="channels/2583.html">党群建设</a>
+                      
+                        <a href="channels/2588.html">生活之窗</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="channels/2590.html">
+                  <h3>加入我们</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="channels/2590.html">人才理念</a>
+                      
+                        <a href="channels/2591.html">招聘岗位</a>
+                      
+                        <a href="channels/2592.html">校企合作</a>
+                      
+                        <a href="channels/2593.html">招聘窗口</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="channels/2594.html">
+                  <h3>联系我们</h3>
+                </a>
+                
+              </li>
+            
+          </ul>
+          <div class="dw2 yuyan d-flex align-items-center">
+            
+          </div>
+          <div class="search_btn tc_btn d-flex align-items-center justify-content-center" name="tc_search">
+            <img class="top_search_white" src="images/top_search.png">
+            <img class="top_search_black" src="images/top_search2.png">
+          </div>
+        </nav>
+      </div>
     </div>
-</footer>	<!-- External JS -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-	<script src="vendor/bootstrap/popper.min.js"></script>
-	<script src="vendor/bootstrap/bootstrap.min.js"></script>
-	<script src="vendor/select2/select2.min.js "></script>
-	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
-	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
-	<script src="vendor/isotope/isotope.min.js"></script>
-	<script src="vendor/lightcase/lightcase.js"></script>
-	<script src="vendor/waypoints/waypoint.min.js"></script>
-	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	 
-	<!-- Main JS -->
-	<script src="js/app.min.js "></script>
-	<script src="//localhost:35729/livereload.js"></script>
+  </div>
+</header>
+<header id="m_header">
+  <div id="logo">
+    <div class="j_tab">
+      <div class="j_tab_cel">
+        <a href="index.html">
+          <img src="images/logo.png">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="nav_btn_box">
+    <div class="j_tab">
+      <div class="j_tab_cel">
+        <aside id="nav_btn">
+          <div class="point" name="1" id="mbtn"> <span class="navbtn"></span> </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <div class="dd" style="display:none; float:right; margin-left:10px;">
+    <a href="index.html" style=" display: inline-block;font-size: 14px;color: #000;text-transform: uppercase;line-height: 22px;border: #757575 1px solid;width: 35px;vertical-align: middle;margin: 17px 0;text-align: center;">EN</a>
+  </div>
+</header>
+<nav id="m_nav">
+  <div class="tc_search">
+    <div class="j_tab">
+      <div class="j_tab_cel">
+        <form class="header-search" action="https://demo.sscms.com/theme800/Randy/search/index.html" method="get">
+          <input type="text" id="keyword" class="focus_js" placeholder="请输入搜索关键词" name="word" autocomplete="off">
+          <button type="submit" title="提交" onclick="if (!$('#keyword').val()) {return false;}" class="btn_blue fl tc_close" value=""></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <ul class="m_nav_list">
+    <li class="">
+      <a class="a" href="index.html">
+        <h3>首页</h3>
+      </a>
+    </li>
+    
+      <li class="title">
+        <a class="a" href="channels/2555.html">
+          <h3>关于我们</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="channels/2555.html">公司概况</a>
+            
+              <a href="channels/2557.html">发展历程</a>
+            
+              <a href="channels/2558.html">荣誉资质</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="channels/2562.html">
+          <h3>产品中心</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="channels/2562.html">汽车电子</a>
+            
+              <a href="channels/2563.html">视讯产品</a>
+            
+              <a href="channels/2564.html">连接装置</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="channels/2566.html">
+          <h3>解决方案</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="channels/2566.html">电信行业</a>
+            
+              <a href="channels/2569.html">金融行业</a>
+            
+              <a href="channels/2572.html">保险行业</a>
+            
+              <a href="channels/2575.html">智能制造</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="channels/2579.html">
+          <h3>新闻动态</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="channels/2579.html">企业新闻</a>
+            
+              <a href="channels/2580.html">媒体聚焦</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="channels/2582.html">
+          <h3>企业文化</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="channels/2582.html">价值理念</a>
+            
+              <a href="channels/2583.html">党群建设</a>
+            
+              <a href="channels/2588.html">生活之窗</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="channels/2590.html">
+          <h3>加入我们</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="channels/2590.html">人才理念</a>
+            
+              <a href="channels/2591.html">招聘岗位</a>
+            
+              <a href="channels/2592.html">校企合作</a>
+            
+              <a href="channels/2593.html">招聘窗口</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="channels/2594.html">
+          <h3>联系我们</h3>
+          <i></i>
+        </a>
+        
+      </li>
+    
+  </ul>
+</nav>
+<section class="nav_mask"></section>
+<div class="mb_show"></div>
+
+  <section id="banner">
+    <ul class="banner_slider">
+      
+        <li>
+          <div class="img" style="background:url(upload/images/2023/3/8506732bb9537c15.jpg) center no-repeat; background-size:cover;">
+          </div>
+          <div class="con">
+            <div class="container-fluid">
+              <div class="j_tab">
+                <div class="j_tab_cel">
+                  <div class="txt">
+                    <h3 class="dd1 letter fw-bold">国内领先的通信服务提供商</h3>
+                    <p class="dd2 letter">High-end manufacturing of new energy vehicle parts</p>
+                    <p class="dd3">—— 我们是谁</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="img" style="background:url(upload/images/2023/3/3d2186dd42409502.jpg) center no-repeat; background-size:cover;">
+          </div>
+          <div class="con">
+            <div class="container-fluid">
+              <div class="j_tab">
+                <div class="j_tab_cel">
+                  <div class="txt">
+                    <h3 class="dd1 letter fw-bold">提供企业通信能力的综合服务商</h3>
+                    <p class="dd2 letter">Comprehensive service provider of power batteries for new energy vehicles</p>
+                    <p class="dd3">—— 我们是谁</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      
+    </ul>
+    <div class="con">
+      <div class="container-fluid">
+        <div class="j_tab">
+          <div class="j_tab_cel">
+            <div class="appendArrows">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <article id="s_mian">
+    <section class="about pt-md-5 pt-4 pb-5">
+      <div class="container-fluid position-relative">
+        <div class="row">
+          <div class="col-md-7 col-12">
+            
+              <img alt="公司概况" src="images/about.jpg">
+            
+          </div>
+          <div class="col-md-5 col-12">
+            <div class="pt-5">
+              <h2>
+                <div class="fw-bold">
+                  公司概况
+                </div>
+                <span>
+                  Company profile
+                </span>
+              </h2>
+            </div>
+            <div class="shuju pt-md-5 pt-4 pb-5">
+              <ul class="d-flex justify-content-between">
+                
+                  <li>
+                    <h4>
+                      <span class="counter fw-bold" id="myTargetElement1">
+                        120
+                      </span>
+                      <span>
+                        项
+                      </span>
+                    </h4>
+                    <h6>
+                      专利技术发明
+                    </h6>
+                  </li>
+                
+                  <li>
+                    <h4>
+                      <span class="counter fw-bold" id="myTargetElement2">
+                        5000
+                      </span>
+                      <span>
+                        家
+                      </span>
+                    </h4>
+                    <h6>
+                      优质客户
+                    </h6>
+                  </li>
+                
+                  <li>
+                    <h4>
+                      <span class="counter fw-bold" id="myTargetElement3">
+                        2005
+                      </span>
+                      <span>
+                        年
+                      </span>
+                    </h4>
+                    <h6>
+                      成立于
+                    </h6>
+                  </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="about_box  p-5">
+          
+            <h4>历经二十余年的创新发展</h4>
+            <div class="desc">
+              集团公司创建于2004年，经过近20年快速健康发展，在全球拥有中国、德国、加拿大、越南等九大专业化制造基地，成为集新材料、新能源等产业于一体的科技型、国际化公司。
+            </div>
+          
+          
+          <a href="channels/2555.html">
+            <div class="btn_more mt-5">
+              探索更多
+              <i class="iconfont icon-jiantou_xiangyou_o"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <script type="text/javascript">
+        var options = { useEasing: true, useGrouping: true, separator: ',', decimal: '.', prefix: '', suffix: '' };
+        
+          var demo1 = new CountUp("myTargetElement1", 0, 120, 0, 4, options);
+        
+          var demo2 = new CountUp("myTargetElement2", 0, 5000, 0, 4, options);
+        
+          var demo3 = new CountUp("myTargetElement3", 0, 2005, 0, 4, options);
+        
+        var indexPart4Top = $('.about').offset().top;
+        $(window).scroll(function () {
+          if ($(window).scrollTop() <= indexPart4Top && $(window).scrollTop() >= indexPart4Top - $(window).height()) {
+            
+              demo1.start();
+            
+              demo2.start();
+            
+              demo3.start();
+            
+          }
+        });
+      </script>
+    </section>
+
+    <section class="services pt-5 pb-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="tit">
+            <h3 class="fw-bold">
+              <span>
+                解决方案
+              </span>
+              Solutions
+            </h3>
+            <a class="btn_r" href="channels/2566.html">
+              探索更多
+              <i class="iconfont icon-jiantou_xiangyou_o"></i>
+            </a>
+          </div>
+          <ul class="s_pro_slide">
+            
+              <li>
+                <a class="box" href="channels/2566.html">
+                  <div class="img">
+                    <img src="upload/images/2023/3/49512b77170bc785.jpg">
+                  </div>
+                  <div class="txt">
+                    <h5>电信行业</h5>
+                    <p>自动化、效率化、精确化，并具有可控性及可视性</p>
+                    <div class="btn_more">详情</div>
+                  </div>
+                </a>
+              </li>
+            
+              <li>
+                <a class="box" href="channels/2569.html">
+                  <div class="img">
+                    <img src="upload/images/2023/3/6d01ffdc28073382.jpg">
+                  </div>
+                  <div class="txt">
+                    <h5>金融行业</h5>
+                    <p>有效满足制造业企业规模发展、精细化管理</p>
+                    <div class="btn_more">详情</div>
+                  </div>
+                </a>
+              </li>
+            
+              <li>
+                <a class="box" href="channels/2572.html">
+                  <div class="img">
+                    <img src="upload/images/2023/3/df98dc5eb05830e6.jpg">
+                  </div>
+                  <div class="txt">
+                    <h5>保险行业</h5>
+                    <p>自动化、效率化、精确化，并具有可控性及可视性</p>
+                    <div class="btn_more">详情</div>
+                  </div>
+                </a>
+              </li>
+            
+              <li>
+                <a class="box" href="channels/2575.html">
+                  <div class="img">
+                    <img src="upload/images/2023/3/55934926b37db288.jpg">
+                  </div>
+                  <div class="txt">
+                    <h5>智能制造</h5>
+                    <p>有效满足制造业企业规模发展、精细化管理</p>
+                    <div class="btn_more">详情</div>
+                  </div>
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="products pt-5 pb-5" style="background:url(images/pro_bg.jpg) center no-repeat;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="tit">
+            <h3 class="fw-bold">
+              <span>
+                产品中心
+              </span>
+              Products
+            </h3>
+            <a class="btn_r" href="channels/2562.html">
+              探索更多
+              <i class="iconfont icon-jiantou_xiangyou_o"></i>
+            </a>
+          </div>
+          <div class="position-relative">
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide">
+                    <a href="channels/2562.html">
+                      <div class="img">
+                        <img class="w100" width="100%" src="upload/images/2023/3/3d1e2df8a7a768e0.jpg">
+                      </div>
+                      <div class="txt p-3 d-flex justify-content-between align-items-center">
+                        <h5 class="text-truncate">汽车电子</h5>
+                        <i class="iconfont icon-jiantou_xiangyou_o"></i>
+                      </div>
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="channels/2563.html">
+                      <div class="img">
+                        <img class="w100" width="100%" src="upload/images/2023/3/723554a47a32619c.jpg">
+                      </div>
+                      <div class="txt p-3 d-flex justify-content-between align-items-center">
+                        <h5 class="text-truncate">视讯产品</h5>
+                        <i class="iconfont icon-jiantou_xiangyou_o"></i>
+                      </div>
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="channels/2564.html">
+                      <div class="img">
+                        <img class="w100" width="100%" src="upload/images/2023/3/7618d3b31aef89f9.jpg">
+                      </div>
+                      <div class="txt p-3 d-flex justify-content-between align-items-center">
+                        <h5 class="text-truncate">连接装置</h5>
+                        <i class="iconfont icon-jiantou_xiangyou_o"></i>
+                      </div>
+                    </a>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news pt-5 pb-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="tit">
+            <h3 class="fw-bold">
+              <span>
+                新闻动态
+              </span>
+              News
+            </h3>
+            <a class="btn_r" href="channels/2579.html">
+              探索更多
+              <i class="iconfont icon-jiantou_xiangyou_o"></i>
+            </a>
+          </div>
+          <div class="swiper mySwiper  pb-3">
+            <div class="swiper-wrapper">
+              
+                <div class="swiper-slide">
+                  <div class="box">
+                    <div class="img slow">
+                      <a href="contents/2579/149.html">
+                        <img src="upload/images/2022/3/2b4bef6df44e9913.jpg">
+                        <span class="red-bg"></span>
+                        <span class="line line_1"></span>
+                        <span class="line line_2"></span>
+                      </a>
+                    </div>
+                    <div class="con">
+                      <h4>企业新闻</h4>
+                      <h5 class="fw-bold"><a href="contents/2579/149.html">红色血脉永续传承</a></h5>
+                      <p>
+                        历史是最好的教科书，而红色资源是书中厚重隽永的华章。一部哈尔滨城市史，烙印着外敌掠犯的累累伤痕，也闪烁着无数英雄的耀眼光芒。杨靖宇、赵尚志、李兆麟、赵一曼……无数革命先驱为了民族独立和人民解放，英勇斗争、不懈奋斗，用血肉之躯筑起中华民族的钢铁长城。红色土...
+                      </p>
+                      <h6 class="d-flex justify-content-between">
+                        <div>
+                          <i class="iconfont icon-riqi"></i>
+                          2023-03-03
+                        </div>
+                        <div><i class="iconfont icon-jiantou_xiangyou_o"></i></div>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide">
+                  <div class="box">
+                    <div class="img slow">
+                      <a href="contents/2579/151.html">
+                        <img src="upload/images/2022/3/24d20f70c47f1a22.jpg">
+                        <span class="red-bg"></span>
+                        <span class="line line_1"></span>
+                        <span class="line line_2"></span>
+                      </a>
+                    </div>
+                    <div class="con">
+                      <h4>企业新闻</h4>
+                      <h5 class="fw-bold"><a href="contents/2579/151.html">奋进新征程建功新时代·伟大变革</a></h5>
+                      <p>
+                        党的十八大以来，以习近平同志为核心的党中央坚持以深化改革激发创新活力，科技体制改革全面发力、多点突破、纵深发展，涉及范围之广、出台方案之多、触及利益之深、推进力度之大，前所未有。2013年7月17日，习近平总书记在中国科学院考察时强调：“要坚决扫除影响科技创新...
+                      </p>
+                      <h6 class="d-flex justify-content-between">
+                        <div>
+                          <i class="iconfont icon-riqi"></i>
+                          2023-03-03
+                        </div>
+                        <div><i class="iconfont icon-jiantou_xiangyou_o"></i></div>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide">
+                  <div class="box">
+                    <div class="img slow">
+                      <a href="contents/2580/159.html">
+                        <img src="upload/images/2022/3/f7596bdf6f756ca0.jpg">
+                        <span class="red-bg"></span>
+                        <span class="line line_1"></span>
+                        <span class="line line_2"></span>
+                      </a>
+                    </div>
+                    <div class="con">
+                      <h4>媒体聚焦</h4>
+                      <h5 class="fw-bold"><a href="contents/2580/159.html">向着复兴梦想的新跨越——新时代中国经济社会发展述评</a></h5>
+                      <p>
+                        　　新华社北京2月17日电&#160;题：向着复兴梦想的新跨越——新时代中国经济社会发展述评　　开栏的话：　　历史照亮未来，奋斗成就伟业。　　党的十八大以来，以习近平同志为核心的党中央领导全党全军全国各族人民砥砺前行，全面建成小康社会目标如期实现，党和国家事业取得历史性...
+                      </p>
+                      <h6 class="d-flex justify-content-between">
+                        <div>
+                          <i class="iconfont icon-riqi"></i>
+                          2022-03-27
+                        </div>
+                        <div><i class="iconfont icon-jiantou_xiangyou_o"></i></div>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide">
+                  <div class="box">
+                    <div class="img slow">
+                      <a href="contents/2579/150.html">
+                        <img src="upload/images/2022/3/f7596bdf6f756ca0.jpg">
+                        <span class="red-bg"></span>
+                        <span class="line line_1"></span>
+                        <span class="line line_2"></span>
+                      </a>
+                    </div>
+                    <div class="con">
+                      <h4>企业新闻</h4>
+                      <h5 class="fw-bold"><a href="contents/2579/150.html">向着复兴梦想的新跨越——新时代中国经济社会发展述评</a></h5>
+                      <p>
+                        　　新华社北京2月17日电&#160;题：向着复兴梦想的新跨越——新时代中国经济社会发展述评　　开栏的话：　　历史照亮未来，奋斗成就伟业。　　党的十八大以来，以习近平同志为核心的党中央领导全党全军全国各族人民砥砺前行，全面建成小康社会目标如期实现，党和国家事业取得历史性...
+                      </p>
+                      <h6 class="d-flex justify-content-between">
+                        <div>
+                          <i class="iconfont icon-riqi"></i>
+                          2022-03-27
+                        </div>
+                        <div><i class="iconfont icon-jiantou_xiangyou_o"></i></div>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide">
+                  <div class="box">
+                    <div class="img slow">
+                      <a href="contents/2580/163.html">
+                        <img src="upload/images/2022/3/b5f9415aa29c8933.jpg">
+                        <span class="red-bg"></span>
+                        <span class="line line_1"></span>
+                        <span class="line line_2"></span>
+                      </a>
+                    </div>
+                    <div class="con">
+                      <h4>媒体聚焦</h4>
+                      <h5 class="fw-bold"><a href="contents/2580/163.html">党的领导作用和党的领导制度优势在新时代充分彰显 </a></h5>
+                      <p>
+                        党的十八大以来，中国特色社会主义进入新时代，以习近平同志为核心的党中央领导全党全军全国各族人民砥砺前行，解决了许多长期想解决而没有解决的难题，办成了许多过去想办而没有办成的大事，党和国家事业取得历史性成就、发生历史性变革。即日起，本网开设“在习近平...
+                      </p>
+                      <h6 class="d-flex justify-content-between">
+                        <div>
+                          <i class="iconfont icon-riqi"></i>
+                          2022-03-27
+                        </div>
+                        <div><i class="iconfont icon-jiantou_xiangyou_o"></i></div>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide">
+                  <div class="box">
+                    <div class="img slow">
+                      <a href="contents/2579/146.html">
+                        <img src="upload/images/2022/3/b5f9415aa29c8933.jpg">
+                        <span class="red-bg"></span>
+                        <span class="line line_1"></span>
+                        <span class="line line_2"></span>
+                      </a>
+                    </div>
+                    <div class="con">
+                      <h4>企业新闻</h4>
+                      <h5 class="fw-bold"><a href="contents/2579/146.html">党的领导作用和党的领导制度优势在新时代充分彰显 </a></h5>
+                      <p>
+                        党的十八大以来，中国特色社会主义进入新时代，以习近平同志为核心的党中央领导全党全军全国各族人民砥砺前行，解决了许多长期想解决而没有解决的难题，办成了许多过去想办而没有办成的大事，党和国家事业取得历史性成就、发生历史性变革。即日起，本网开设“在习近平...
+                      </p>
+                      <h6 class="d-flex justify-content-between">
+                        <div>
+                          <i class="iconfont icon-riqi"></i>
+                          2022-03-27
+                        </div>
+                        <div><i class="iconfont icon-jiantou_xiangyou_o"></i></div>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="diqiu pt-5 pb-5" style="background: url(images/dq_bg.jpg) center no-repeat;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h4 class="text-white fw-bold mt-5">
+              企业文化
+            </h4>
+            <h5 class="text-white">
+              Corporate culture
+            </h5>
+            <div class="desc text-white mt-5 mb-5 lh-lg pt-2 pb-2">
+              真诚合作、勇于创新、挑战未来 
+            </div>
+            <a href="channels/2582.html">
+              <div class="btn_more text-center mb-5">探索更多</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners pt-md-5 pb-md-5 pt-4 pb-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="tit">
+            <h3 class="fw-bold">
+              <span>
+                合作伙伴
+              </span>
+              Partners
+            </h3>
+          </div>
+          <ul>
+            
+              <li class="l1">
+                <img width="100%" src="upload/images/2023/3/3c98142d37246bfe.jpg"></li>
+            
+              <li class="l2">
+                <img width="100%" src="upload/images/2023/3/db18bcbaae668205.png"></li>
+            
+              <li class="l3">
+                <img width="100%" src="upload/images/2023/3/3bd1a693e062b37b.jpg"></li>
+            
+              <li class="l4">
+                <img width="100%" src="upload/images/2023/3/209d67a9e33aae45.jpg"></li>
+            
+              <li class="l5">
+                <img width="100%" src="upload/images/2023/3/a714d3bf9356a1bd.jpg"></li>
+            
+              <li class="l6">
+                <img width="100%" src="upload/images/2023/3/59a76221daaae334.jpg"></li>
+            
+              <li class="l7">
+                <img width="100%" src="upload/images/2023/3/386ada5263c0780c.jpg"></li>
+            
+              <li class="l8">
+                <img width="100%" src="upload/images/2023/3/7132fc6dbc0baef8.jpg"></li>
+            
+              <li class="l9">
+                <img width="100%" src="upload/images/2023/3/146ce58961b269f1.jpg"></li>
+            
+              <li class="l10">
+                <img width="100%" src="upload/images/2023/3/c82a708cd2c0107d.jpg"></li>
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section_bottom mt-3">
+      <ul class="clearfix">
+        <li>
+          <a href="channels/2590.html">
+            <div class="box_table">
+              <div class="box_table_cell">
+                <h4>加入我们</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="li">
+          <a href="channels/2594.html">
+            <div class="box_table">
+              <div class="box_table_cell">
+                <h4>联系我们</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <script type="text/javascript">
+      $('#header').hover(function (e) {
+        $('#header').addClass('xg');
+      });
+      $('#header').mouseleave(function (e) {
+        $('#header').removeClass('xg');
+      });
+      $(window).scroll(function () {
+        var winHeight = $(this).scrollTop()
+        if (winHeight > 0) {
+          $('#header').addClass('xg');
+          $('#header').mouseleave(function (e) {
+            $('#header').addClass('xg');
+          });
+        } else {
+          $('#header').removeClass("xg");
+          $('#header').mouseleave(function (e) {
+            $('#header').removeClass('xg');
+          });
+        }
+      });
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+
+      var swiper = new Swiper(".mySwiper1", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    
+    <footer id="foot" class="pt-5">
+  <div class="container-fluid ft_bg">
+    <div class="row justify-content-between">
+      <div class="col-12 col-md-3 foot_lianxi mt-2">
+        <h1 class="foot_logo mb-4">
+          <a href="index.html">
+            <img src="images/logo_white.png">
+          </a>
+        </h1>
+        <div class="box">
+          <ul class="mb-4">
+            <li>电话：0310-88889999</li>
+            <li>邮箱：support@hbzjkj.com</li>
+            <li>邮编：800080</li>
+            <li>地址：河北石家庄高新区</li>
+          </ul>
+          <div class="foot_share">
+            <div class="txt">
+              <ul>
+                
+                  <li>
+                        <a href="https://weibo.com" target="_blank">
+                          <img alt="微博" src="images/weibo.png">
+                        </a>
+                      </li>
+                
+                  <li>
+                        <a class="tc_btn" name="t253">
+                          <img alt="微信公众号" src="images/weixin.png">
+                        </a>
+                      </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-8 foot_nav mt-2 justify-content-between">
+        
+          <dl>
+              <dt><a href="channels/2555.html">关于我们</a></dt>
+              
+                <dd><a href="channels/2555.html">公司概况</a></dd>
+              
+                <dd><a href="channels/2557.html">发展历程</a></dd>
+              
+                <dd><a href="channels/2558.html">荣誉资质</a></dd>
+                          
+            </dl>
+        
+          <dl>
+              <dt><a href="channels/2562.html">产品中心</a></dt>
+              
+                <dd><a href="channels/2562.html">汽车电子</a></dd>
+              
+                <dd><a href="channels/2563.html">视讯产品</a></dd>
+              
+                <dd><a href="channels/2564.html">连接装置</a></dd>
+                          
+            </dl>
+        
+          <dl>
+              <dt><a href="channels/2566.html">解决方案</a></dt>
+              
+                <dd><a href="channels/2566.html">电信行业</a></dd>
+              
+                <dd><a href="channels/2569.html">金融行业</a></dd>
+              
+                <dd><a href="channels/2572.html">保险行业</a></dd>
+              
+                <dd><a href="channels/2575.html">智能制造</a></dd>
+                          
+            </dl>
+        
+          <dl>
+              <dt><a href="channels/2579.html">新闻动态</a></dt>
+              
+                <dd><a href="channels/2579.html">企业新闻</a></dd>
+              
+                <dd><a href="channels/2580.html">媒体聚焦</a></dd>
+                          
+            </dl>
+        
+          <dl>
+              <dt><a href="channels/2582.html">企业文化</a></dt>
+              
+                <dd><a href="channels/2582.html">价值理念</a></dd>
+              
+                <dd><a href="channels/2583.html">党群建设</a></dd>
+              
+                <dd><a href="channels/2588.html">生活之窗</a></dd>
+                          
+            </dl>
+        
+          <dl>
+              <dt><a href="channels/2590.html">加入我们</a></dt>
+              
+                <dd><a href="channels/2590.html">人才理念</a></dd>
+              
+                <dd><a href="channels/2591.html">招聘岗位</a></dd>
+              
+                <dd><a href="channels/2592.html">校企合作</a></dd>
+              
+                <dd><a href="channels/2593.html">招聘窗口</a></dd>
+                          
+            </dl>
+        
+          
+        
+      </div>
+    </div>
+  </div>
+  <div class="copyright mt-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          Copyright © 河北涨涧科技有限公司  版权所有
+        </div>
+        <div class="col-12 col-md-6 text-end">
+          <a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备100011043号</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/base.js"></script>
+
+  
+
+  <aside class="tc1">
+      <div class="tc" name="t253">
+        <div class="tc-box animated zoomOut">
+          <h3><img alt="微信公众号" src="upload/images/2023/2/2feae5d54237ddcc.jpg"></h3>
+          <h5>微信公众号</h5>
+        </div>
+        <div class="tc_bg"></div>
+      </div>
+    </aside>
+
+
+<aside>
+  <div class="tc" name="tc_search">
+    <div class="j_tab">
+      <div class="j_tab_cel">
+        <div class="tc-box" id="tc_search">
+          <form class="header-search" action="https://demo.sscms.com/theme800/Randy/search/index.html" method="get">
+            <label class="input_tip">请输入关键词搜索</label>
+            <input type="text" id="word" class="focus_js" name="word" autocomplete="off">
+            <button type="submit" onclick="if (!$('#word').val()) {return false;}" class="btn_blue fl tc_close" value=""></button>
+          </form>
+        </div>
+        <div class="tc_bg"></div>
+      </div>
+    </div>
+  </div>
+</aside>
+  </article>
 </body>
+
 </html>

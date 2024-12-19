@@ -1,0 +1,24 @@
+.desc{font-size:1.2rem;line-height:1.8}
+.about_1 img{max-width:100%}
+.about_1 .p{font-size:1.2rem;line-height:3}
+.swiper-slide:before{content:"";position:absolute;top:50px;left:0rem;right:0rem;height:3px;background:#004299}
+.swiper-slide:after{margin-left:-15px;content:"";position:absolute;left:50%;top:0;width:25px;height:58px;background:url(../images/jt.png) center no-repeat}
+.swiper-slide .box{padding:0 2.5rem;position:relative}
+.swiper-slide h3{text-align:center;font-size:2.5rem;color:#004299;margin-top:70px;position:relative;font-weight:700;font-family:BEBAS;margin-bottom:2.5rem}
+.swiper-slide p{text-align:center;font-size:16px;line-height:2rem;margin-bottom:0;padding-left:14px;position:relative}
+.swiper-button-next{width:38px;height:38px;background:url(../images/right02.png) center no-repeat}
+.swiper-button-prev{width:38px;height:38px;background:url(../images/left02.png) center no-repeat}
+.swiper-button-prev:after,.swiper-rtl .swiper-button-next:after{content:''}
+.swiper-button-next:after,.swiper-rtl .swiper-button-prev:after{content:''}
+.about_2{min-height:800px}
+@media (max-width:768px){
+.list_box_13 li font{width:100%}
+.about_2{min-height:500px!important}
+}
+@media (max-width:768px){
+.n_position ul li a{padding:0 2rem}
+.n_position ul li{height:3rem;line-height:3rem;margin-right:1rem;margin-bottom:1rem}
+.p_box{margin-top:.5rem}
+}
+#gallerySlider .placeholder{opacity:1}
+.placeholder{cursor:auto}

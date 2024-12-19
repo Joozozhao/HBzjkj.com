@@ -1,0 +1,18 @@
+.container05 ul{margin-bottom:4.625rem;overflow:hidden}
+.container05 ul li{width:50%;position:relative;-moz-transition:all .36s ease-in-out;-webkit-transition:all .36s ease-in-out;-o-transition:all .36s ease-in-out;-ms-transition:all .36s ease-in-out;transition:all .36s ease-in-out;background:#0852b4}
+.container05 ul li:after{content:"";border:transparent 3px solid;position:absolute;top:0;left:0;width:100%;height:100%;-moz-transition:all .36s ease-in-out;-webkit-transition:all .36s ease-in-out;-o-transition:all .36s ease-in-out;-ms-transition:all .36s ease-in-out;transition:all .36s ease-in-out;pointer-events:none}
+.container05 ul li .img{float:left;width:50%;position:relative}
+.container05 ul li .img img{width:100%}
+.container05 ul li .con{position:absolute;top:0;right:0;width:50%;height:100%}
+.container05 ul li .con h3{font-size:1.5rem;color:#fff;margin-bottom:.75rem}
+.container05 ul li .con h4{line-height:2;font-size:1.05rem;color:#fff;margin-bottom:2.25rem}
+.table{display:table;width:100%;height:100%}
+.table_cell{display:table-cell;vertical-align:middle}
+.line{width:100%;height:1px;background:#fff}
+.container05 ul li:hover:after{border:#0852b4 5px solid}
+.container05 ul li img{transition:1s;-webkit-transition:1s;-moz-transition:1s;-ms-transition:1s;-o-transition:1s}
+.container05 ul li:hover img{transform:scale(1.03);-webkit-transform:scale(1.03);-moz-transform:scale(1.03);-ms-transform:scale(1.03);-o-transform:scale(1.03)}
+@media (max-width:768px){
+.container05 ul li{width:100%;margin-bottom:1rem}
+.container05 ul{margin-bottom:0}
+}

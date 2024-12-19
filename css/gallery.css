@@ -1,0 +1,6 @@
+.list .li .img img{transition:1s}
+.list .li a:hover .img img{transform:scale(1.1) rotate(.1deg)}
+.list .li .txt p{font-size:1.25rem;line-height:3;color:#000;text-align:center}
+.list .li a{display:block;position:relative;overflow:hidden;border-radius:5px}
+#gallerySlider .placeholder{opacity:1}
+.placeholder{cursor:auto}

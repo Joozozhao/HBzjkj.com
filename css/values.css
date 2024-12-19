@@ -1,0 +1,16 @@
+dl.item_add{cursor:pointer;display:flex;margin:0;padding:1rem 0;border-bottom:1px solid #e2e2e4;position:relative}
+dl.item_add.on dd span{color:#004299}
+dl.item_add.on dd p{color:#004299}
+dl.item_add.on:before{width:100%;left:0;right:auto}
+.n_lianxi dl:before{content:"";display:block;width:0;height:2px;background:#004299;position:absolute;right:0;bottom:0;transition:.7s;-webkit-transition:.7s;-moz-transition:.7s;-ms-transition:.7s;-o-transition:.7s}
+.n_lianxi dl dd{padding-left:.875rem}
+.n_lianxi dl dd span{font-size:1.2rem;color:#333;font-weight:700;margin-bottom:.5rem;display:block}
+.n_lianxi dl dd p{font-size:.9375rem;color:#2c2c2c}
+.n_lianxi .con dl{width:45%;float:left}
+.n_lianxi .con dl:nth-child(2),.n_lianxi .con dl:nth-child(4){width:55%;padding-left:10%;position:relative}
+.n_lianxi .con dl:nth-child(2):before,.n_lianxi .con dl:nth-child(4):before{content:"";position:absolute;display:block;width:1px;height:44px;left:0;top:50%;margin-top:-22px;background:#e2e2e4}
+.n_lianxi dl.item_add{cursor:pointer}
+.n_lianxi dl.item_add.on dd span{color:#004299}
+.n_lianxi dl.item_add.on dd p{color:#004299}
+.n_lianxi dl.item_add.on:before{width:100%;left:0;right:auto}
+.n_lianxi dl.item_add:hover:before{width:100%;left:0;right:auto}

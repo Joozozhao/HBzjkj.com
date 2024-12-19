@@ -1,0 +1,25 @@
+.lists ul.ul li{margin-bottom:1.875rem}
+.lists ul.ul li a{display:block;padding:.9375rem;padding-right:0;background:#f8f8f8;transition:.6s;position:relative}
+.lists ul.ul li a:before{content:"";position:absolute;right:0;width:0;transition:.6s;top:0;bottom:0}
+.lists ul.ul li a .img,.lists ul.ul li a .img img{width:15.9375rem;height:10.625rem;overflow:hidden;position:relative}
+.lists ul.ul li a .con{width:calc(100% - 15.9375rem - 3.4375rem);padding:1.5rem 2rem 0;position:relative}
+.lists ul.ul li a .con h5{overflow:hidden;font-size:1.1875rem;line-height:2rem;height:2rem;color:#636363;font-weight:700;transition:.6s}
+.lists ul.ul li a .con h6{font-size:.9rem;color:#999;margin:.75rem 0 1rem;transition:.6s}
+.lists ul.ul li a .con h6 i{margin-right:.2rem}
+.lists ul.ul li a .con p{font-size:.875rem;line-height:22px;height:44px;color:#8c8b8b;transition:.6s}
+.lists ul.ul li a .yanjing{width:3.4375rem;height:100%;position:absolute;right:0;top:0;bottom:0;background:#bcbcbc;transition:.6s}
+.icon-yueduliang{font-size:1.5rem;color:#fff}
+.lists ul.ul li a:hover:before{width:100%;background:#004299;left:0}
+.lists ul.ul li a:hover .con h5,.lists ul.ul li a:hover .con h6,.lists ul.ul li a:hover .con p{color:#fff}
+.lists ul.ul li a:hover .yanjing{background:0 0}
+@media (max-width:768px){
+.lists ul.ul li a .con{width:100%;padding:1rem 1.5rem 0}
+.lists ul.ul li a .yanjing{display:none}
+.lists ul.ul li a .con p{overflow:hidden}
+.lists ul.ul li a .img,.lists ul.ul li a .img img{width:100%;height:auto}
+}
+@media (max-width:768px){
+.n_position ul li a{padding:0 2rem}
+.n_position ul li{height:3rem;line-height:3rem;margin-right:1rem;margin-bottom:1rem}
+.p_box{margin-top:.5rem}
+}

@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="utf-8">
+  <title>Randy</title>
+<meta name="keywords" content="CMS,SSCMS,SS CMS,开源CMS,.net cms,.net core,政府CMS,企业级CMS,网站群,WCM,内容管理系统,网站内容管理,门户系统,建站系统" />
+<meta name="description" content="SiteServer CMS 是开源、跨平台、企业级的CMS内容管理系统，能够以最低的成本、最少的人力投入在最短的时间内架设一个功能齐全、性能优异、规模庞大并易于维护的网站平台。" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="renderer" content="webkit">
+<link rel="icon" href="../../favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="../../css/iconfont.css">
+<link href="../../css/swiper-bundle.min.css" rel="stylesheet">
+<link href="../../css/bootstrap.min.css" rel="stylesheet">
+<link href="../../css/slider.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/slider.js"></script>
+<script src="../../js/countup.min.js"></script>
+<script src="../../js/swiper-bundle.min.js"></script>
+<script src="../../js/jquery.SuperSlide.2.1.1.js"></script>
+  <link rel="stylesheet" href="../../css/content.css">
+</head>
+
+<body>
+
+<script language="JavaScript" type="text/javascript">
+function stlDoZoom(zoomId, size){
+    var artibody = document.getElementById(zoomId);
+    if(!artibody){
+        return;
+    }
+    var artibodyChild = artibody.childNodes;
+    artibody.style.fontSize = size + 'px';
+    for(var i = 0; i < artibodyChild.length; i++){
+        if(artibodyChild[i].nodeType == 1){
+            artibodyChild[i].style.fontSize = size + 'px';
+        }
+    }
+}
+</script>
+
+
+  <header id="header" class="xg">
+  <div class="container-fluid">
+    <div class="row justify-content-between">
+      <div id="logo" class="col-3 align-self-center d-flex">
+        <a href="../../index.html">
+          <img class="logo_white" src="../../images/logo_white.png">
+          <img class="logo_black" src="../../images/logo.png">
+        </a>
+      </div>
+      <div class="col-9">
+        <nav id="nav" class="d-flex justify-content-end">
+          <ul class="d-flex align-items-center">
+            <li class="">
+              <a href="../../index.html">
+                <h3>网站首页</h3>
+              </a>
+            </li>
+            
+              <li class="">
+                <a href="../../channels/2555.html">
+                  <h3>关于我们</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="../../channels/2555.html">公司概况</a>
+                      
+                        <a href="../../channels/2557.html">发展历程</a>
+                      
+                        <a href="../../channels/2558.html">荣誉资质</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="../../channels/2562.html">
+                  <h3>产品中心</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="../../channels/2562.html">汽车电子</a>
+                      
+                        <a href="../../channels/2563.html">视讯产品</a>
+                      
+                        <a href="../../channels/2564.html">连接装置</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="../../channels/2566.html">
+                  <h3>解决方案</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="../../channels/2566.html">电信行业</a>
+                      
+                        <a href="../../channels/2569.html">金融行业</a>
+                      
+                        <a href="../../channels/2572.html">保险行业</a>
+                      
+                        <a href="../../channels/2575.html">智能制造</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="../../channels/2579.html">
+                  <h3>新闻动态</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="../../channels/2579.html">企业新闻</a>
+                      
+                        <a href="../../channels/2580.html">媒体聚焦</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="../../channels/2582.html">
+                  <h3>企业文化</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="../../channels/2582.html">价值理念</a>
+                      
+                        <a href="../../channels/2583.html">党群建设</a>
+                      
+                        <a href="../../channels/2588.html">生活之窗</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="on">
+                <a href="../../channels/2590.html">
+                  <h3>加入我们</h3>
+                </a>
+                <div class="sub">
+                    <div class="box">
+                      
+                        <a href="../../channels/2590.html">人才理念</a>
+                      
+                        <a href="../../channels/2591.html">招聘岗位</a>
+                      
+                        <a href="../../channels/2592.html">校企合作</a>
+                      
+                        <a href="../../channels/2593.html">招聘窗口</a>
+                      
+                    </div>
+                  </div>
+              </li>
+            
+              <li class="">
+                <a href="../../channels/2594.html">
+                  <h3>联系我们</h3>
+                </a>
+                
+              </li>
+            
+          </ul>
+          <div class="dw2 yuyan d-flex align-items-center">
+            
+          </div>
+          <div class="search_btn tc_btn d-flex align-items-center justify-content-center" name="tc_search">
+            <img class="top_search_white" src="../../images/top_search.png">
+            <img class="top_search_black" src="../../images/top_search2.png">
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<header id="m_header">
+  <div id="logo">
+    <div class="j_tab">
+      <div class="j_tab_cel">
+        <a href="../../index.html">
+          <img src="../../images/logo.png">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="nav_btn_box">
+    <div class="j_tab">
+      <div class="j_tab_cel">
+        <aside id="nav_btn">
+          <div class="point" name="1" id="mbtn"> <span class="navbtn"></span> </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <div class="dd" style="display:none; float:right; margin-left:10px;">
+    <a href="../../index.html" style=" display: inline-block;font-size: 14px;color: #000;text-transform: uppercase;line-height: 22px;border: #757575 1px solid;width: 35px;vertical-align: middle;margin: 17px 0;text-align: center;">EN</a>
+  </div>
+</header>
+<nav id="m_nav">
+  <div class="tc_search">
+    <div class="j_tab">
+      <div class="j_tab_cel">
+        <form class="header-search" action="https://demo.sscms.com/theme800/Randy/search/index.html" method="get">
+          <input type="text" id="keyword" class="focus_js" placeholder="请输入搜索关键词" name="word" autocomplete="off">
+          <button type="submit" title="提交" onclick="if (!$('#keyword').val()) {return false;}" class="btn_blue fl tc_close" value=""></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <ul class="m_nav_list">
+    <li class="">
+      <a class="a" href="../../index.html">
+        <h3>网站首页</h3>
+      </a>
+    </li>
+    
+      <li class="title">
+        <a class="a" href="../../channels/2555.html">
+          <h3>关于我们</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="../../channels/2555.html">公司概况</a>
+            
+              <a href="../../channels/2557.html">发展历程</a>
+            
+              <a href="../../channels/2558.html">荣誉资质</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="../../channels/2562.html">
+          <h3>产品中心</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="../../channels/2562.html">汽车电子</a>
+            
+              <a href="../../channels/2563.html">视讯产品</a>
+            
+              <a href="../../channels/2564.html">连接装置</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="../../channels/2566.html">
+          <h3>解决方案</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="../../channels/2566.html">电信行业</a>
+            
+              <a href="../../channels/2569.html">金融行业</a>
+            
+              <a href="../../channels/2572.html">保险行业</a>
+            
+              <a href="../../channels/2575.html">智能制造</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="../../channels/2579.html">
+          <h3>新闻动态</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="../../channels/2579.html">企业新闻</a>
+            
+              <a href="../../channels/2580.html">媒体聚焦</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="../../channels/2582.html">
+          <h3>企业文化</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="../../channels/2582.html">价值理念</a>
+            
+              <a href="../../channels/2583.html">党群建设</a>
+            
+              <a href="../../channels/2588.html">生活之窗</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="../../channels/2590.html">
+          <h3>加入我们</h3>
+          <i></i>
+        </a>
+        <div class="list">
+            
+              <a href="../../channels/2590.html">人才理念</a>
+            
+              <a href="../../channels/2591.html">招聘岗位</a>
+            
+              <a href="../../channels/2592.html">校企合作</a>
+            
+              <a href="../../channels/2593.html">招聘窗口</a>
+            
+          </div>
+      </li>
+    
+      <li class="title">
+        <a class="a" href="../../channels/2594.html">
+          <h3>联系我们</h3>
+          <i></i>
+        </a>
+        
+      </li>
+    
+  </ul>
+</nav>
+<section class="nav_mask"></section>
+<div class="mb_show"></div>
+  <section class="n_banner" style="background:url(../../upload/images/2023/3/5d8c12ee877c83ad.jpg) center no-repeat">
+  <div class="box_table">
+    <div class="box_table_cell">
+      <div class="container">
+        <h3 class="ms-5">创造价值，实现梦想</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="n_position pt-3 pb-3">
+  <div class="container">
+    <div class="row">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <div class="">
+          <div class="n_nav">
+            <ul>
+              
+                <li class="">
+                  <a href="../../channels/2590.html">人才理念</a>
+                  <i></i>
+                </li>
+              
+                <li class="">
+                  <a href="../../channels/2591.html">招聘岗位</a>
+                  <i></i>
+                </li>
+              
+                <li class="">
+                  <a href="../../channels/2592.html">校企合作</a>
+                  <i></i>
+                </li>
+              
+                <li class="on">
+                  <a href="../../channels/2593.html">招聘窗口</a>
+                  <i></i>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="p_box">
+          <div class="position">
+            当前位置：
+            <a href="../../index.html">首页</a> <i>></i> <a href="../../channels/2590.html">加入我们</a> <i>></i> <a href="../../channels/2593.html">招聘窗口</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="xinwen n_news_detail pt-md-5 pt-4 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="content clearfix">
+          <div class="n_left">
+            <div class="box">
+              <div class="ar_title">
+                <h3>上海发展集团有限公司</h3>
+                <h6>
+                  <div id="font_set_box">
+                    <div class="font_box">
+                      <a id="font_lg" class="" href="javascript:stlDoZoom('artibody', 22);">大</a>
+                      <a id="font_md" class="on" href="javascript:stlDoZoom('artibody', 15);">中</a>
+                      <a id="font_sm" href="javascript:stlDoZoom('artibody', 12);">小</a>
+                    </div>
+                  </div>
+                </h6>
+              </div>
+              <div class="ar_article" id="artibody">
+                <p>联系人：王先生</p><p>招聘邮箱：zp@sscms.com</p><p>招聘热线：010-88888888</p><p>公司地址：北京市海淀区紫雀路33号院3号楼</p>
+              </div>
+              <section id="ar_fot">
+                <div class="fanhui">
+                  <a href="../../channels/2593.html"><img src="../../images/fanhui.png" alt="">返回列表</a>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="n_right">
+            <div class="sticky">
+              <div class="content01">
+                <div class="time">
+                  <h3>
+                    03
+                  </h3>
+                  <h5>
+                    2023-03
+                  </h5>
+                </div>
+                <div class="fenxiang">
+                  <div class="social-share" data-title="上海发展集团有限公司" data-description="联系人：王先生招聘邮箱：zp@sscms.com招聘热线：010-88888888公司地址：北京市海淀区紫雀路33号院3号楼" data-sites="wechat, weibo, qq, qzone, douban"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="tuijian">
+                  <h3>最新动态</h3>
+                  <ul>
+                    
+                      <li>
+                        <a href="251.html">
+                          <h5>北京发展集团有限公司</h5>
+                          <h6>2023-03-03</h6>
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="250.html">
+                          <h5>上海发展集团有限公司</h5>
+                          <h6>2023-03-03</h6>
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="249.html">
+                          <h5>广州发展集团有限公司</h5>
+                          <h6>2023-03-03</h6>
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="248.html">
+                          <h5>深圳发展集团有限公司</h5>
+                          <h6>2023-03-03</h6>
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="247.html">
+                          <h5>海南发展集团有限公司</h5>
+                          <h6>2023-03-03</h6>
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="foot" class="pt-5">
+  <div class="container-fluid ft_bg">
+    <div class="row justify-content-between">
+      <div class="col-12 col-md-3 foot_lianxi mt-2">
+        <h1 class="foot_logo mb-4">
+          <a href="../../index.html">
+            <img src="../../images/logo_white.png">
+          </a>
+        </h1>
+        <div class="box">
+          <ul class="mb-4">
+            <li>电话：010-88788878</li>
+            <li>邮箱：support@sscms.com</li>
+            <li>邮编：100080</li>
+            <li>地址：北京市海淀区紫雀路33号院3号楼</li>
+          </ul>
+          <div class="foot_share">
+            <div class="txt">
+              <ul>
+                
+                  <li>
+                        <a href="https://weibo.com" target="_blank">
+                          <img alt="微博" src="../../images/weibo.png">
+                        </a>
+                      </li>
+                
+                  <li>
+                        <a class="tc_btn" name="t253">
+                          <img alt="微信公众号" src="../../images/weixin.png">
+                        </a>
+                      </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-8 foot_nav mt-2 justify-content-between">
+        
+          <dl>
+              <dt><a href="../../channels/2555.html">关于我们</a></dt>
+              
+                <dd><a href="../../channels/2555.html">公司概况</a></dd>
+              
+                <dd><a href="../../channels/2557.html">发展历程</a></dd>
+              
+                <dd><a href="../../channels/2558.html">荣誉资质</a></dd>
+                          
+            </dl>
+        
+          <dl>
+              <dt><a href="../../channels/2562.html">产品中心</a></dt>
+              
+                <dd><a href="../../channels/2562.html">汽车电子</a></dd>
+              
+                <dd><a href="../../channels/2563.html">视讯产品</a></dd>
+              
+                <dd><a href="../../channels/2564.html">连接装置</a></dd>
+                          
+            </dl>
+        
+          <dl>
+              <dt><a href="../../channels/2566.html">解决方案</a></dt>
+              
+                <dd><a href="../../channels/2566.html">电信行业</a></dd>
+              
+                <dd><a href="../../channels/2569.html">金融行业</a></dd>
+              
+                <dd><a href="../../channels/2572.html">保险行业</a></dd>
+              
+                <dd><a href="../../channels/2575.html">智能制造</a></dd>
+                          
+            </dl>
+        
+          <dl>
+              <dt><a href="../../channels/2579.html">新闻动态</a></dt>
+              
+                <dd><a href="../../channels/2579.html">企业新闻</a></dd>
+              
+                <dd><a href="../../channels/2580.html">媒体聚焦</a></dd>
+                          
+            </dl>
+        
+          <dl>
+              <dt><a href="../../channels/2582.html">企业文化</a></dt>
+              
+                <dd><a href="../../channels/2582.html">价值理念</a></dd>
+              
+                <dd><a href="../../channels/2583.html">党群建设</a></dd>
+              
+                <dd><a href="../../channels/2588.html">生活之窗</a></dd>
+                          
+            </dl>
+        
+          <dl>
+              <dt><a href="../../channels/2590.html">加入我们</a></dt>
+              
+                <dd><a href="../../channels/2590.html">人才理念</a></dd>
+              
+                <dd><a href="../../channels/2591.html">招聘岗位</a></dd>
+              
+                <dd><a href="../../channels/2592.html">校企合作</a></dd>
+              
+                <dd><a href="../../channels/2593.html">招聘窗口</a></dd>
+                          
+            </dl>
+        
+          
+        
+      </div>
+    </div>
+  </div>
+  <div class="copyright mt-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          Copyright © 企业集团有限责任公司  版权所有
+        </div>
+        <div class="col-12 col-md-6 text-end">
+          <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备100011043号</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="../../js/base.js"></script>
+
+  
+
+  <aside class="tc1">
+      <div class="tc" name="t253">
+        <div class="tc-box animated zoomOut">
+          <h3><img alt="微信公众号" src="../../upload/images/2023/2/2feae5d54237ddcc.jpg"></h3>
+          <h5>微信公众号</h5>
+        </div>
+        <div class="tc_bg"></div>
+      </div>
+    </aside>
+
+
+<aside>
+  <div class="tc" name="tc_search">
+    <div class="j_tab">
+      <div class="j_tab_cel">
+        <div class="tc-box" id="tc_search">
+          <form class="header-search" action="https://demo.sscms.com/theme800/Randy/search/index.html" method="get">
+            <label class="input_tip">请输入关键词搜索</label>
+            <input type="text" id="word" class="focus_js" name="word" autocomplete="off">
+            <button type="submit" onclick="if (!$('#word').val()) {return false;}" class="btn_blue fl tc_close" value=""></button>
+          </form>
+        </div>
+        <div class="tc_bg"></div>
+      </div>
+    </div>
+  </div>
+</aside>
+</body>
+
+</html><link href="../../../../sitefiles/resources/share/css/share.min.css" rel="stylesheet" /><script type="text/javascript" src="../../../../sitefiles/resources/share/js/social-share.min.js"></script>

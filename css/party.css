@@ -1,0 +1,21 @@
+.container06 ul{font-size:0;margin:0 -5px}
+.container06 ul li{display:inline-block;width:14.28%;padding:0 2px;transition:.6s}
+.container06 ul li a{display:block;width:100%;position:relative}
+.container06 ul li a:before{content:"";position:absolute;right:0;top:0;bottom:0;width:0}
+.container06 ul li a .img{overflow:hidden}
+.container06 ul li a .img .img_hezi{padding-bottom:29.5625rem!important}
+.container06 ul li a .img img{object-fit:cover}
+.container06 ul li a .top1{position:absolute;right:0;bottom:0;left:0}
+.container06 ul li a .top1{background:rgba(255,255,255,.5)}
+.container06 ul li.on a .top1{background:rgba(0,66,153,.5)}
+.container06 ul li a .top1 h4{font-size:1.475rem;line-height:2;color:#004299}
+.container06 ul li.on a .top1 h4{color:#fff}
+.container06 ul li a .top1 img{display:none}
+.container06 ul li.on a .top1 img{display:block}
+.img_zd{position:relative;width:100%}
+.img_zd .img_hezi{padding-bottom:60%!important}
+.img_zd img{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%}
+@media(min-width:992px){
+.container06 ul li{width:20%!important}
+.container06 ul li.on{display:inline-block;width:40%!important}
+}
